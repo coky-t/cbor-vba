@@ -2,7 +2,7 @@
 
 ## Specification
 
-[CBOR for VBA specification](src/cbor-vba-spec.md
+[CBOR for VBA specification](src/cbor-vba-spec.md)
 
 ## Usage
 
