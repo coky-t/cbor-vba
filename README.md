@@ -30,7 +30,7 @@ Import [CBOR.bas](src/CBOR.bas)
             ' do anything
         End If
     Else
-        Value = CBOR.GetValue(MPBytes)
+        Value = CBOR.GetValue(CborBytes)
         ' do anything
     End If
 ```
