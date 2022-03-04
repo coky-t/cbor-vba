@@ -75,7 +75,7 @@ major type        | source formats               | VBA types
 7: simple/float   | false and true               | Boolean
 7: simple/float   | null                         | Null
 7: simple/float   | undefined                    | Empty
-7: simple/float   | half-precision float         | -
+7: simple/float   | half-precision float         | Single
 7: simple/float   | single-precision float       | Single
 7: simple/float   | double-precision float       | Double
 7: simple/float   | break                        | -
@@ -117,12 +117,6 @@ major type        | source formats               | VBA types
 
 * 0xc0 text-based date/time (data item follows; see Section 3.4.1)
 * 0xc1 epoch-based date/time (data item follows; see Section 3.4.2)
-
-### float
-
-* 0xf9 half-precision float (two-byte IEEE 754)
-
-* 4.2.1. Core Deteministic Encoding Requirements - Floating-point values also MUST use the shortest form
 
 ### map
 
